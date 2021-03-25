@@ -1,0 +1,1 @@
+f2py -c --opt='-Ofast -fno-stack-arrays -ffast-math -march=native -pthread -funroll-loops -fimplicit-none -std=f2008 -fexternal-blas' solver_fortran.f90 -m solver_fortran --f90flags="-fopenmp" -lgomp -lopenblas
