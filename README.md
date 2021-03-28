@@ -1,4 +1,7 @@
-Files for benchmarking coordinate descent for [equadratures](https://github.com/Effective-Quadratures/equadratures) code
+Files for benchmarking coordinate descent for [equadratures](https://github.com/Effective-Quadratures/equadratures) code.
+
+Refer to [this discourse post](https://discourse.equadratures.org/t/the-quest-for-speed-an-indicative-survey-in-improving-performance/144/2) for context.
+
 
 - 0-benchmark-python-fortran.py
   - 1st plot benchmark, but using matplotlib instead.
