@@ -1,7 +1,35 @@
-Files for benchmarking coordinate descent for [equadratures](https://github.com/Effective-Quadratures/equadratures) code.
+Files for benchmarking coordinate descent algorithm using `Python`, `Fortran`, and `C++` languages with Python interface for use in [equadratures](https://github.com/Effective-Quadratures/equadratures).
 
-Refer to [this discourse post](https://discourse.equadratures.org/t/the-quest-for-speed-an-indicative-survey-in-improving-performance/144/2) for context.
+Refer to [this discourse post](https://discourse.equadratures.org/t/the-quest-for-speed-an-indicative-survey-in-improving-performance/144/2) for full description regarding the code and context.
 
+### System Configuration
+
+The codes were tested with the following hardware/software:
+
+- MacBook Pro 15-inch 2017
+    - Intel i7-7920HQ @ 3.1GHz
+    - 16GB 2133MHz
+- macOS 10.15.7
+- OpenBLAS 0.3.13
+- Python 3.8.6
+- Numpy 1.20.1
+- pybind11 2.6.2
+- Eigen 3.3.9
+
+### Benchmarking
+
+Interactive plots of the benchmark can be found by selecting the following images:
+
+[![ndims-all-Macbook|690x354](https://plotly.com/~bubald/34.jpg)](https://plotly.com/~bubald/34.embed)
+
+*Figure 1: Contours of dimensions against Observations for Python, Fortran, and C++; and speedups relative to Python*
+
+[![active_dims-all-Macbook|690x354](https://plotly.com/~bubald/36.jpg) ](https://plotly.com/~bubald/36.embed)
+
+
+*Figure 2: Contours of dimensions against % of active dimensions with fixed 2500 observations for Python, Fortran, and C++; and speedups relative to Python*
+
+### File descriptions
 
 - 0-benchmark-python-fortran.py
   - 1st plot benchmark, but using matplotlib instead.
