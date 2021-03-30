@@ -20,11 +20,11 @@ The codes were tested with the following hardware/software:
 
 Interactive plots of the benchmark can be found by selecting the following images:
 
-[![ndims-all-Macbook|690x354](https://plotly.com/~bubald/34.jpg)](https://plotly.com/~bubald/34.embed)
+[![](outputs/ndims-all-Macbook.jpg)](https://plotly.com/~bubald/34.embed)
 
 *Figure 1: Contours of dimensions against Observations for Python, Fortran, and C++; and speedups relative to Python*
 
-[![active_dims-all-Macbook|690x354](https://plotly.com/~bubald/36.jpg) ](https://plotly.com/~bubald/36.embed)
+[![](outputs/active_dims-all-Macbook.jpg)](https://plotly.com/~bubald/36.embed)
 
 
 *Figure 2: Contours of dimensions against % of active dimensions with fixed 2500 observations for Python, Fortran, and C++; and speedups relative to Python*
